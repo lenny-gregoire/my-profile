@@ -1,0 +1,73 @@
+@import url("components/div.css");
+@import url("links/links.css");
+
+*{
+  list-style-type:none;
+}
+
+h2{
+  color:darkred;
+  font-size:40px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  background-color:FFFBF5;
+  font-weight:bolder;
+  background-size:100%;
+  text-align: center;
+}
+
+img{
+  border-radius:45%;
+  background-position-x:300px 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition: color 0s ease;
+}
+
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+#Avatar{
+  width:40px;
+  height:40px;
+}
+
+.vignettes{
+  border-radius:50%;
+}
+
+.vignettes{
+  border: 3px solid blueviolet;
+}
+
+#leader{
+  box-shadow:0px 20px 20px;
+}
+
+h1,h2{
+  font-weight:lighter;
+}
+
+p{
+  color: darkgray;
+}
+
+.Container{
+  padding: 100px;
+}
+
+.links{
+  margin: 500px;
+  border: 1px solid red;
+}
+
+            /*j'arrive pas avec la partie div à bien comprendre de A à Z comment tout relier et où mettre les éléments*/
